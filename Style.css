@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/*見出し*/
+
+body {
+    background-color: rgb(167, 192, 178);
+    color:rgb(20, 20, 20);
+    margin: 0;
+}
+
+
+.container{
+    max-width: 1048px;
+    margin:0 auto;
+}
+
+h1, h2, h3{
+    font-family: '游ゴシック','メイリオ',sans-serif;
+    line-height: 1.1;
+    color: rgb(0, 20, 20);
+}
+
+h1{
+    background-color: rgb(119, 158, 129);
+    text-shadow: 1px 1px 2px rgb(30, 59, 1);
+}
+
+a{
+    color: rgb(73, 55, 41);
+}
+
+
+.global_nav {
+    font-size: 18px;
+    width: 940px;
+    background-color: black;
+}
+.nav-list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.nav-item {
+    display: inline-block;
+    padding: 20px 15px;
+    color: #fff;
+}
